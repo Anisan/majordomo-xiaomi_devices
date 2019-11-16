@@ -1,6 +1,19 @@
-
-<div class="device-widget controller" onClick='callMethod("%.object_title%.switch");'>
-    <div class="device-icon %.status|"off;on"%"></div>
-    <div class="device-header"><span>%.object_description%</span></div>
-    <div class="device-details">Temp: %.temperature% Hum: %.humidity%% Depth: %.depth%</div> 
+<style>
+.container {
+  position: relative;
+}
+.bottomright {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 18px;
+}
+</style>
+<div class="device-widget controller online" onClick='callMethod("%.object_title%.switch");'>
+    <div class="container device-icon %.status|"off;on"%" style='background-image:url(../templates/xiaomimiio/img/small/zhimi.humidifier.ca1.png);background-size: 55px 55px;width:60px;height:60px;margin-right:5px'>
+        <i class="fas fa-cog %.status|";fa-spin"% bottomright"></i>
+    </div>
+    <div class="device-header" style="padding-top:0px;height:30px;"><span>%.object_description%</span></div>
+    <div class="device-details">Temp: %.temperature%&deg;C Hum: %.humidity%% Mode:%.mode%</div> 
+    <div class="device-details">Water: <progress max="125" value="%.depth%"></progress></div>
 </div>
