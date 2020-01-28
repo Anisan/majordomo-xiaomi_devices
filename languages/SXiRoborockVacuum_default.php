@@ -22,6 +22,7 @@ $dictionary=array(
 'DEVICES_VACUUM_STATE_15' => 'Docking',
 'DEVICES_VACUUM_STATE_16' => 'Going to target',
 'DEVICES_VACUUM_STATE_17' => 'Zoned cleaning',
+'DEVICES_VACUUM_STATE_18' => 'Room cleaning',
 'DEVICES_VACUUM_STATE_100' => 'Full',
 'DEVICES_VACUUM_STATE_101' => 'Wet cleaning',
 'DEVICES_VACUUM_STATE_105' => 'Turbo',
@@ -47,8 +48,8 @@ $dictionary=array(
 'DEVICES_VACUUM_ERROR_16' => 'Place me on flat surface',
 'DEVICES_VACUUM_ERROR_17' => 'Side brushes problem, reboot me',
 'DEVICES_VACUUM_ERROR_18' => 'Suction fan problem',
-'DEVICES_VACUUM_ERROR_19' => 'Unpowered charging station'
-
+'DEVICES_VACUUM_ERROR_19' => 'Unpowered charging station',
+'DEVICES_VACUUM_ERROR_99' => 'Need service'
 );
 
 foreach ($dictionary as $k=>$v) {

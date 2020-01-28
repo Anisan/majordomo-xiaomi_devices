@@ -22,6 +22,7 @@ $dictionary=array(
 'DEVICES_VACUUM_STATE_15' => 'Стыковка',
 'DEVICES_VACUUM_STATE_16' => 'Движение к цели',
 'DEVICES_VACUUM_STATE_17' => 'Зональная уборка',
+'DEVICES_VACUUM_STATE_18' => 'Уборка комнаты',
 'DEVICES_VACUUM_STATE_100' => 'Заполнен',
 'DEVICES_VACUUM_STATE_101' => 'Влажная уборка',
 'DEVICES_VACUUM_STATE_105' => 'Турбо',
@@ -47,7 +48,8 @@ $dictionary=array(
 'DEVICES_VACUUM_ERROR_16' => 'Поместите меня на ровную поверхность',
 'DEVICES_VACUUM_ERROR_17' => 'Проблема боковых щеток, перезагрузите меня',
 'DEVICES_VACUUM_ERROR_18' => 'Проблема с всасывающим вентилятором',
-'DEVICES_VACUUM_ERROR_19' => 'Зарядная станция без питания'
+'DEVICES_VACUUM_ERROR_19' => 'Зарядная станция без питания',
+'DEVICES_VACUUM_ERROR_99' => 'Необходимо обслуживание'
 
 );
 
