@@ -1,0 +1,20 @@
+<style>
+.container {
+  position: relative;
+}
+.bottomright {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 18px;
+}
+</style>
+<div class="device-widget controller online" onClick='callMethod("%.object_title%.switch");'>
+    <div class="container device-icon %.status|"off;on"%" style='background-image:url(../templates/xiaomimiio/img/small/mmgg.pet_waterer.s1.png);background-size: 55px 55px;width:60px;height:60px;margin-right:5px'>
+        <i class="fas fa-cog %.status|";fa-spin"% bottomright"></i>
+    </div>
+    <div class="device-header" style="padding-top:0px;height:22px;"><span>%.object_description%</span></div>
+    <div class="device-details">Mode:%.mode|"1=Standart;2=Smart"%</div>
+	<div class="device-details">Water: <progress max="1" value="%.water%"></progress></div>
+    <div class="device-details">Indicator:%.led|"0=Off;1=On"%</div> 
+</div>
